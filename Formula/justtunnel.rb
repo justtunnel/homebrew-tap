@@ -1,30 +1,30 @@
 class Justtunnel < Formula
   desc "Expose your local services to the internet with a public URL"
   homepage "https://justtunnel.dev"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/justtunnel/justtunnel-cli/releases/download/v#{version}/justtunnel-darwin-arm64"
-      sha256 "fe547a4b037b4364dc4c953d1f4a286b3068eeb097e4b8bd60fe456a28b8cd02"
+      sha256 "eac6d2763abdf6c75ef3a04c6f94804918c0630a0c0c7e943e6fc99f05677929"
     end
 
     on_intel do
       url "https://github.com/justtunnel/justtunnel-cli/releases/download/v#{version}/justtunnel-darwin-amd64"
-      sha256 "75110697b560ca9f9addada6d43e2df3924eebe3b68e2ff91c37f355132a3a6f"
+      sha256 "e85f3bd6bdafe017d747bd1e5505e1318735d8093e049fa617ecbfe70889b68d"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/justtunnel/justtunnel-cli/releases/download/v#{version}/justtunnel-linux-arm64"
-      sha256 "ceaf2d223c360d39a5d859e7d2617e6060ae1177d26a51428e35a37cf3834c81"
+      sha256 "4ef0249c5a81b87a2bc17dc7a7540c2ef92009361fc2d1d1d1fdc9caf5d78acf"
     end
 
     on_intel do
       url "https://github.com/justtunnel/justtunnel-cli/releases/download/v#{version}/justtunnel-linux-amd64"
-      sha256 "30e7cfcf3cbdef23b252c1193680c63a545f84d6d686049c0d92e41ebb8a7019"
+      sha256 "3080195c98b437e5773e2b8570d1ce660bc261696d1aa8e08224c457564f9505"
     end
   end
 
